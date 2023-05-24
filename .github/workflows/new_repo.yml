@@ -18,10 +18,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-      - name: checkout my-plugin-list
+      - name: checkout my-neovim-pluginlist
         uses: actions/checkout@v3
         with:
-          ref: ${{ github.event.client_payload.ref }}
+          repository: yutkat/my-neovim-pluginlist
           path: my-neovim-pluginlist
           fetch-depth: 0
       # Runs a set of commands using the runners shell
