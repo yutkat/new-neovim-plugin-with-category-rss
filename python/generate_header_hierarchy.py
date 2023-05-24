@@ -29,7 +29,7 @@ def main():
     parser.add_argument('line_number', type=int, help='Line number to get header hierarchy')
     args = parser.parse_args()
 
-    print('"' + get_header_hierarchy(args.file_path, args.line_number) + '"')
+    print(get_header_hierarchy(args.file_path, args.line_number))
 
 if __name__ == "__main__":
     main()

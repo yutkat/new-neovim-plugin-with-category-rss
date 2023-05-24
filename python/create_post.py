@@ -30,7 +30,7 @@ title: {repo}
     <meta http-equiv="refresh" content="0; url='https://github.com/{repo}'" />
   </head>
   <body>
-    {category}<a href="https://github.com/{repo}">{repo}</a>
+    {category}
   </body>
 </html>
 """)
