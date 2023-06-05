@@ -19,8 +19,7 @@ def main():
     filename = f'{cwd}/_posts/{date}-{output_file}.html'
     # Create a new file with the given name
     with open(filename, 'w') as f:
-        f.write(f"""
----
+        f.write(f"""---
 layout: default
 title: {repo}
 ---
