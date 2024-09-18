@@ -4,6 +4,7 @@ name: Create new posts
 
 # Controls when the workflow will run
 on:
+  workflow_dispatch:
   repository_dispatch:
     types: [trigger-new-repo]
 
